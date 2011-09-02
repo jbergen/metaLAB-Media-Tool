@@ -19,10 +19,10 @@ To get the best experience you will need to install timthumb which the tool reli
 
 you should install it in wp-content like so:
 
--wp-content
---timthumb
----timthumb.php
----cache
++wp-content
+++timthumb
++++timthumb.php
++++cache
 
 the tool also relies on the lightbox-2 plugin: http://wordpress.org/extend/plugins/lightbox-2/
 install it by dropping it into your plugins folder and activating it via the admin panel.
