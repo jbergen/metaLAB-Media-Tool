@@ -89,23 +89,7 @@ description: This partial is called by <?php get_sidebar(); ?>
 		?> 
 		</ul>
 		
-		<h6>people</h6>
-		<ul>
-		<?php 
-		
-		$peeps = get_terms("people");
-		$html = "";
-		foreach ($peeps as $tag){
-			echo "<li>";
-			echo "<a href='#' class='sort-toggle' id='". $tag->slug . "'>[+]</a>";
-			echo " <a href='#' class='sort-only' id='sort-only-". $tag->slug ."'>";
-
-			echo $tag->name;
-			echo "</a>";
-			echo "</li>";
-		}
-		?>
-		</ul>		
+	
 	
 	
 	<br/>

@@ -151,17 +151,36 @@ description: this file is called when accessing a single post
 					<h3>metadata</h3>
 					
 					date: <a href="<?php echo get_year_link($year); ?>"><?php the_date_xml(); ?></a>
-					<br/>
-					people: <?php the_terms( $post->ID, 'people', '', ' / ', ' ' ); ?>
+					
 					<br/>
 					
 					category: <?php the_category(' / '); ?>
 					<br/>
 					
 					tags: <?php the_tags('',' / ',''); ?>
-					
+										
 					<br/>
 					
+					<?php 
+					
+						$keys = get_post_custom_keys();
+						foreach($keys as $key)
+						{
+							$a = !preg_match( '/^_/', $key );
+							$b = !preg_match('/_value$/', $key);
+							if( $a && $b )
+							{
+								$values = get_post_custom_values($key);
+								echo $key .": ";
+								foreach($values as $value)
+								{
+									echo $value ." / ";
+								}
+							}
+						}
+					
+					?>
+					<br/>
 					
 					<?php 
 					$location = get_post_meta($post->ID, "location_value", true);
