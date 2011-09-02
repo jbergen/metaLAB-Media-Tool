@@ -1,0 +1,175 @@
+/*
+THEME NAME: metaLAB research tool
+DESCRIPTION: Collaborative research tool
+VERSION: 0.1.1
+AUTHOR: <a href="http://www.josephbergen.com/">Joseph Bergen</a>
+AUTHOR URI:
+*/
+
+
+
+
+ul, li {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#left-sidebar li {
+}
+
+#search-wrapper{
+	border:1px solid #ccc;
+	overflow:hidden;
+	width:140px;
+}
+
+#searchsubmit {
+	display:block;
+	height:20px;
+	width:25px;
+	border:0px solid #ccc;
+	background:#eee;
+	float:right;
+}
+
+input#s {
+	border:none;
+	color:#ccc;
+}
+
+
+#searchsubmit:hover{
+	cursor:pointer;
+	background:#ddd;
+}
+
+
+#wrapper {
+	width:1000px;
+	overflow:hidden;
+	padding:10px 10px 20px;
+}
+
+#container{
+	width:610px;
+	padding:0 10px;
+	overflow:hidden;
+}
+
+.sidebar {
+	
+}
+
+#left-sidebar{
+	float:left;
+	width:150px;
+}
+
+#right-sidebar{
+	position:fixed;
+	width:200px;
+	left:786px;
+	border-left:1px solid #ccc;
+	height:100%;
+]	
+}
+
+.grid-post {
+
+}
+
+.grid-wrapper a:hover{
+	/*border-bottom:3px solid #000;*/
+	height:70px;
+}
+
+.grid-wrapper{
+	float:left;
+	margin: 0 1px 1px 0;
+	height:75px;
+	width:75px;
+	overflow:hidden;
+	
+}
+
+.grid-post a {
+	display:block;
+	background:#ff00ff;
+	height:75px;
+	width:75px;
+	overflow:hidden;
+}
+
+#single-post{
+	float:left;
+	width:100%;
+}
+
+
+
+#rollover{
+	padding:0 10px;
+}
+
+#rollover h3{
+	
+}
+
+#rollover-image{
+	height:200px;
+	width:200px;
+}
+
+#single-container{
+	width:830px;
+	padding:0 10px;
+	overflow:hidden;
+}
+
+.single-entry{
+	margin: 0 0 20px 0;
+}
+
+#media {
+	overflow:hidden;
+}
+
+#media-images{
+	overflow:hidden;
+}
+
+#hidden-links{
+	margin-top:10px;
+}
+
+#hidden-links ul, #hidden-links li{
+	padding:0;
+	margin:0;
+}
+
+#media img{
+	margin: 0 1px 1px 0;
+	float:left;
+}
+
+.attachment-link{
+	background: #fff url('assets/images/attachment.gif') no-repeat 0 0;
+	padding:0 0 0 20px;
+}
+.video-link{
+	background: #fff url('assets/images/video.gif') no-repeat 0 0;
+	padding:0 0 0 20px;
+}
+
+#metadata{
+	color:#777;
+}
+
+#footer {
+	position:fixed;
+	width:1000px;
+	background:#fff;
+	bottom:0px;
+}
+
