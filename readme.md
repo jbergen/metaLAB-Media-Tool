@@ -1,15 +1,20 @@
-h1.metaLAB Media Tool
+metaLAB Media Tool
+=====================
 
-h2.What is it?
+What is it?
+---------------------
 A simple to use WordPress theme that is focused on collaborative aggregation of media and associated metadata.
 
-h2.Why should I use it?
+Why should I use it?
+---------------------
 If you need a central repository of media assets  that many users can see, edit, and contribute to.
 
-h2.How do I install it?
+How do I install it?
+---------------------
 The tool is really no different than any other WordPress theme in installation. Put the folder into your wp-content/themes folder and activate it from the admin panel 
 
-h2.Dependencies
+Dependencies
+--------------------
 To get the best experience you will need to install timthumb which the tool relies on to resize and deal with images. You can download the latest version of timthumb here: http://code.google.com/p/timthumb/
 
 you should install it in wp-content like so:
