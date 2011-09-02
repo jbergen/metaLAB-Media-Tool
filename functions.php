@@ -204,8 +204,8 @@ function new_meta_boxes() {
 			echo'<input type="checkbox" name="'.$meta_box['name'].'_value" value="true"'. $checked .' '. $editable .' /><br />';	
 			
 		}elseif($meta_box['type'] == 'map'){
-			echo '<div id="map_canvas" style="height:300px;width:500px"></div>';
 			echo'<input type="text" id="'.$meta_box['name'].'" name="'.$meta_box['name'].'_value" value="'.$meta_box_value.'" size="55" /><br />';
+			echo '<div id="map_canvas" style="height:300px;width:500px"></div>';
 			echo'<input type="checkbox" name="clear-map" id="clear-map"/><p> empty the map data?</p><br />';	
 		}elseif($meta_box['type'] == 'hidden'){
 		 	echo'<input type="hidden" id="'.$meta_box['name'].'" name="'.$meta_box['name'].'_value" value="'.$meta_box_value.'"  />';
